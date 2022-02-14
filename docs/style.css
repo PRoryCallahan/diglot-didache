@@ -1,7 +1,25 @@
 body {
+  background-color: #E8E6DC;
   font-family: 'Noto Serif', serif;
+  color: #3D3D3D;
   display: flex;
   justify-content: center;
+  line-height: 1.6;
+}
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #1C2331;
+    color: #c5cddb;
+  }
+  body a {
+    color: #de4c4c;
+  }
+  body .chapter_ref {
+    color: #de4c4c;
+  }
+  body .verse_ref {
+    color: #de4c4c;
+  }
 }
 .container {
   max-width: 800px;
@@ -12,14 +30,14 @@ nav {
   text-align: center;
 }
 a {
-  color: #C00;
+  color: #d00000;
   text-decoration: none;
 }
 a:hover {
   color: #F33;
   text-decoration: underline;
 }
-h1 {
+h1, h2, h3, h4 {
   text-align: center;
 }
 blockquote {
@@ -65,7 +83,7 @@ li {
   font-size: 1.2em;
   margin: 1em 0 0.3em;
   text-align: center;
-  color: #C00;
+  color: #d00000;
 }
 .epilogue_title {
   font-size: 1.2em;
@@ -73,12 +91,29 @@ li {
   text-align: center;
 }
 .verse_ref {
-  color: #C00;
-  font-size: 70%;
+  color: #d00000;
+  font-size: 75%;
   font-family: sans-serif;
   height: 0;
   line-height: 1;
   position: relative;
-  vertical-align: baseline;
-  top: -0.5em;
+  vertical-align: top;
+  left: -5px;
+}
+.Greek {
+  font-family: "New Athena Unicode", serif;
+  font-size: 110%;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.col {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  margin: 6px;
 }
