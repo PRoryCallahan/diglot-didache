@@ -1,6 +1,6 @@
 # Diglot Didache
 
-A bilingual edition of the Didache in Greek and Latin. Greek from [Open Apostolic Fathers](https://jtauber.github.io/apostolic-fathers/011-didache.html). Latin transcription with macrons from [Didachē Latīnē](https://fergusjpwalsh.github.io/didache-latine/) based on the 1887 ed. of [Franciscus Xaverius Funk](https://archive.org/embed/doctrinaduodeci00funkgoog).
+A bilingual edition of the Didache in Greek and Latin. Greek digitized originally by Perseus Digital Library and Open Greek and Latin Latin First Thousand Years of Greek Project; corrected digital edition via [Open Apostolic Fathers](https://jtauber.github.io/apostolic-fathers/011-didache.html). Latin transcription with macrons from [Didachē Latīnē](https://fergusjpwalsh.github.io/didache-latine/) based on the 1887 ed. of [Franciscus Xaverius Funk](https://archive.org/embed/doctrinaduodeci00funkgoog).
 
 ## Read Online
 
